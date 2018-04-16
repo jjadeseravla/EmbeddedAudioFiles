@@ -5,5 +5,6 @@ Plays audio files from SoundCloud using their API on a test page.
 
 1 - ``` npm install ```  
 
-2 - ```npm start```
+2 - ```npm index```
+
 Navigate to localhost:3000 to see the page
