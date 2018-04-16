@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jjadeseravla/EmbeddedAudioFiles/issues"
   },
-  "homepage": "https://github.com/jjadeseravla/EmbeddedAudioFiles#readme"
+  "homepage": "https://github.com/jjadeseravla/EmbeddedAudioFiles#readme",
+  "dependencies": {
+    "soundcloud": "^3.3.0"
+  }
 }
