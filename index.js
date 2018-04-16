@@ -1,6 +1,6 @@
 const http = require('http');
 const fs = require('fs');
-const SC = require('soundcloud');
+//const SC = require('soundcloud');
 
 
 const hostname = '127.0.0.1';
@@ -23,12 +23,12 @@ fs.readFile('index.html', (err, html) => {
   });
 });
 
-
-SC.initialize({
-  client_id: 'YOUR_CLIENT_ID',
-  redirect_uri: 'http://example.com/callback'
-});
-
-SC.get('/user/183/tracks').then(function(tracks){
-  alert('Latest track: ' + tracks[0].title);
-});
+//
+// SC.initialize({
+//   client_id: 'YOUR_CLIENT_ID',
+//   redirect_uri: 'http://example.com/callback'
+// });
+//
+// SC.get('/user/183/tracks').then(function(tracks){
+//   alert('Latest track: ' + tracks[0].title);
+// });
